@@ -1,6 +1,47 @@
 prof-alessandro:
-    display_name: "Professor Alessandro"
+    display_name: "Alessandro Garcia"
     webpage: "http://www-di.inf.puc-rio.br/~afgarcia/"
-    role: faculty
+    role: head
     image: /img/people/prof-alessandro.jpg
     bio: Professor
+    
+oizumi:
+    display_name: "Willian Oizumi"
+    webpage: "http://wnoizumi.github.io/"
+    role: grad
+    bio: PhD Student
+    
+ana:
+    display_name: "Ana Carla Bibiano"
+    role: grad
+    bio: PhD Student
+    
+anderson-uchoa:
+    display_name: "Anderson G. Uchôa"
+    role: grad
+    bio: PhD Student   
+    
+anderson-oliveira:
+    display_name: "Anderson J. S. Oliveira"
+    role: grad
+    bio: PhD Student
+    
+daniel-tenorio:
+    display_name: "Daniel Tenório"
+    role: grad
+    bio: PhD Student
+    
+caio-barbosa:
+    display_name: "Caio Barbosa"
+    role: grad
+    bio: PhD Student   
+
+daniel-coutinho:
+    display_name: "Daniel Coutinho"
+    role: grad
+    bio: MSc Student
+
+vinicius-soares:
+    display_name: "Vinícius Soares"
+    role: grad
+    bio: MSc Student

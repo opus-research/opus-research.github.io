@@ -3,6 +3,7 @@
 
 $gray: #999;
 $light-gray: #EEE;
+$opus-color: #01611b;
 
 /* Space out content a bit */
 body {
@@ -144,4 +145,17 @@ section {
 svg {
     // make the alignment just like img from bootstrap's reboot.scss
     vertical-align: middle;
+}
+
+.nav-link {
+    color: $opus-color;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: $opus-color;
+}
+
+a {
+	color: $opus-color;
 }
