@@ -76,6 +76,11 @@ caio-barbosa:
     role: grad
     bio: PhD Student   
 
+joao-marques:
+    display_name: "João Lucas Marques"
+    role: grad
+    bio: PhD Student
+
 daniel-coutinho:
     display_name: "Daniel Coutinho"
     role: grad
@@ -85,3 +90,4 @@ vinicius-soares:
     display_name: "Vinícius Soares"
     role: grad
     bio: MSc Student
+    
