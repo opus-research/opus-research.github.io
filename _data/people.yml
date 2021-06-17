@@ -21,10 +21,12 @@ marcos-kalinowski:
 rafael-mello:
     display_name: Rafael de Mello
     role: postdoc
+    image: /img/people/rafael-mello.jpg
     bio: Postdoctoral Researcher
     
 juliana-pereira:
     display_name: Juliana Alves Pereira
+    image: /img/people/juliana-pereira.jpg
     role: postdoc
     bio: Postdoctoral Researcher
     
@@ -37,11 +39,13 @@ thelma-colanzi:
     display_name: Thelma Elita Colanzi
     role: postdoc
     bio: Postdoctoral Researcher
+    image: /img/people/thelma-colanzi.png  
 
 wesley-assuncao:
     display_name: Wesley Assunção
     role: postdoc
     bio: Postdoctoral Researcher
+    image: /img/people/wesley-assuncao.jpg  
     
 willian-oizumi:
     display_name: "Willian Oizumi"
@@ -55,6 +59,7 @@ ana-bibiano:
     display_name: "Ana Carla Bibiano"
     role: grad
     bio: PhD Student
+    image: /img/people/ana-carla.png
     
 anderson-uchoa:
     display_name: "Anderson G. Uchôa"
@@ -65,16 +70,19 @@ anderson-oliveira:
     display_name: "Anderson J. S. Oliveira"
     role: grad
     bio: PhD Student
+    image: /img/people/anderson-oliveira.png
     
 daniel-tenorio:
     display_name: "Daniel Tenório"
     role: grad
     bio: PhD Student
+    image: /img/people/daniel-tenorio.jpg
     
 caio-barbosa:
     display_name: "Caio Barbosa"
     role: grad
     bio: PhD Student   
+    image: /img/people/caio-barbosa.jpg
 
 joao-marques:
     display_name: "João Lucas Marques"
@@ -84,10 +92,12 @@ joao-marques:
 daniel-coutinho:
     display_name: "Daniel Coutinho"
     role: grad
+    image: /img/people/daniel-coutinho.jpg
     bio: MSc Student
 
 vinicius-soares:
     display_name: "Vinícius Soares"
     role: grad
     bio: MSc Student
+    image: /img/people/vinicius-soares.jpg
     
