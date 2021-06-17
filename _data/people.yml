@@ -1,17 +1,57 @@
-prof-alessandro:
+alessandro-garcia:
     display_name: "Alessandro Garcia"
     webpage: "http://www-di.inf.puc-rio.br/~afgarcia/"
     role: head
-    image: /img/people/prof-alessandro.jpg
+    image: /img/people/alessandro-garcia.png
     bio: Professor
     
-oizumi:
+carlos-lucena:
+    display_name: Carlos José Pereira de Lucena
+    role: faculty
+    image: /img/people/carlos-lucena.jpg
+    bio: Professor
+    
+marcos-kalinowski:
+    display_name: Marcos Kalinowski
+    webpage: "http://www-di.inf.puc-rio.br/~kalinowski/"
+    image: /img/people/marcos-kalinowski.jpg
+    role: faculty
+    bio: Professor
+    
+rafael-mello:
+    display_name: Rafael de Mello
+    role: postdoc
+    bio: Postdoctoral Researcher
+    
+juliana-pereira:
+    display_name: Juliana Alves Pereira
+    role: postdoc
+    bio: Postdoctoral Researcher
+    
+silvia-vergilio:
+    display_name: Silvia Regina Vergilio
+    role: postdoc
+    bio: Postdoctoral Researcher
+    
+thelma-colanzi:
+    display_name: Thelma Elita Colanzi
+    role: postdoc
+    bio: Postdoctoral Researcher
+
+wesley-assuncao:
+    display_name: Wesley Assunção
+    role: postdoc
+    bio: Postdoctoral Researcher
+    
+willian-oizumi:
     display_name: "Willian Oizumi"
     webpage: "http://wnoizumi.github.io/"
+    github: wnoizumi
     role: grad
+    image: /img/people/willian-oizumi.png    
     bio: PhD Student
     
-ana:
+ana-bibiano:
     display_name: "Ana Carla Bibiano"
     role: grad
     bio: PhD Student
