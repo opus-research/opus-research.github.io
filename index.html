@@ -20,28 +20,35 @@ role-tables:
 
 ---
 
-<div class="jumbotron">
-    <p>
-        The OPUS Research Group was founded in 2009 by Professor Alessandro Garcia on his arrival to the Pontifical Catholic University of Rio de Janeiro - Brazil. Several master and doctoral students and renowned international researchers belong to this community. We are working together within the field of software composition in order to:
-    </p>    
-    <ul>
-        <li>provide the means to empirically analyze the positive and negative effects of individual modularization mechanisms and techniques on key software quality attributes, and</li>
-        <li>investigate new solutions for modularity that best fit the quality requirements of contemporary application domains.</li>
-    <ul>
+<div class="row">
+    <div class="col-md-9 col-sm-12">
+        <div class="p-5 bg-light fs-5 border rounded-3">
+            <p>
+                The OPUS Research Group was founded in 2009 by Professor Alessandro Garcia on his arrival to the Pontifical Catholic University of Rio de Janeiro - Brazil. Several master and doctoral students and renowned international researchers belong to this community. We are working together within the field of software composition in order to:
+            </p>    
+            <ul>
+                <li>provide the means to empirically analyze the positive and negative effects of individual modularization mechanisms and techniques on key software quality attributes, and</li>
+                <li>investigate new solutions for modularity that best fit the quality requirements of contemporary application domains.</li>
+            <ul>
+        </div>
+    </div>
+    
+    <div class="col py-3">
+        <section>
+            <h2>News</h2>
+            <ul class="news list-unstyled">
+                {% for post in site.posts limit: site.front_page_news %}
+                    {% include news-item.html item=post %}
+                {% endfor %}
+            </ul>
+            {% assign numposts = site.posts | size %}
+            {% if numposts >= 1 %}
+                <p>
+                    <span class="fa fa-fw fa-history"></span>
+                    <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+                </p>
+            {% endif %}
+        </section>
+    </div>
+    
 </div>
-
-<section>
-    <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
-    {% assign numposts = site.posts | size %}
-    {% if numposts >= 1 %}
-        <p>
-            <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
-        </p>
-    {% endif %}
-</section>
