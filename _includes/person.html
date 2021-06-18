@@ -28,7 +28,20 @@ there by default by Bootstrap columns.
 {% endif %}
 
 {% if include.image %}
-    <div class="person person-with-image row align-items-center">
+    {% if person.role == "head" %}
+        {% assign order = 1 %}
+    {% elsif person.role == "faculty" %}
+        {% assign order = 2 %}
+    {% elsif person.role == "postdoc" %}
+        {% assign order = 3 %}
+    {% elsif person.role == "grad" %}
+        {% if person.bio == "PhD Student" %}
+            {% assign order = 4 %}
+        {% else %}
+            {% assign order = 5 %}
+        {% endif %}
+    {% endif %}
+    <div class="person person-with-image row align-items-center" style="order: {{order}}">
         <div class="col-auto">
             {% include person-image.html person=person %}
         </div>

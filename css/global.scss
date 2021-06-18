@@ -72,14 +72,29 @@ ul.news {
 }
 
 @media (min-width: 576px) {
-    .project-people { column-count: 2 }
-    .card-columns   { column-count: 2 }
+    .project-people { 
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .card-columns   { 
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
 
 @media (min-width: 768px) {
-    .role.grad      { column-count: 2 }
-    .project-people { column-count: 3 }
-    .card-columns   { column-count: 3 }
+    .role.grad { 
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .project-people { 
+        display: grid;
+        grid-template-columns: 33% 33% 33%; 
+    }
+    .card-columns   { 
+        display: grid;
+        grid-template-columns: 33% 33% 33%; 
+    }
 }
 
 .title img {
@@ -116,7 +131,6 @@ section {
 }
 
 .person {
-
     margin-bottom: 10px;
 
     .profile {
