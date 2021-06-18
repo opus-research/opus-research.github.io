@@ -158,3 +158,10 @@ svg {
 a {
 	color: $opus-color;
 }
+
+.bio-link {
+    text-decoration: none;
+    &:hover {
+       text-decoration: underline; 
+    }
+}
