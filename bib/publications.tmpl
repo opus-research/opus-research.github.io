@@ -1,14 +1,14 @@
 <table class="table">
 <tbody>
-	{%- set prev_year = 1900 %}
+	{% set date = namespace(prev_year=1900) %}
 	{%- for entry in entries %}
 	<tr>
 		<td>
 			<span class="date">
-				{% if entry.fields['year'] != prev_year %}
-				<big><strong>{{ entry.fields['year'] }}</strong></big><br />
+				{% if date.prev_year != entry.fields.year %}
+					<big><strong>{{ entry.fields.year }}</big></strong>
 				{% endif %}
-				{%- set prev_year = entry.fields['year'] %}
+				{% set date.prev_year = entry.fields.year %}
 			</span>
 		</td>
 		<td class="publication">
