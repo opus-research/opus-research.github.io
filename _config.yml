@@ -51,3 +51,5 @@ navigation:
     link: /publications.html
   - title: Datasets
     link: /datasets.html
+  - title: Tools
+    link: /tools.html
