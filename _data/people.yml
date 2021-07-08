@@ -62,9 +62,11 @@ ana-bibiano:
     image: /img/people/ana-carla.png
     
 anderson-uchoa:
-    display_name: "Anderson G. Uchôa"
+    display_name: "Anderson Uchôa"
     role: grad
-    bio: PhD Student   
+    bio: PhD Student
+    image: /img/people/anderson-uchoa.jpeg
+
     
 anderson-oliveira:
     display_name: "Anderson J. S. Oliveira"
