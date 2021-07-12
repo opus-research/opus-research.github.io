@@ -40,6 +40,8 @@ there by default by Bootstrap columns.
         {% else %}
             {% assign order = 5 %}
         {% endif %}
+    {% else %}
+        {% assign order = 6 %}
     {% endif %}
     <div class="person person-with-image row align-items-center" style="order: {{order}}">
         <div class="col-auto">
